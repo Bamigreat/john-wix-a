@@ -55,7 +55,7 @@ body {
 #rich-chad-img {
   width: 700px; 
   height: 600px;
-  /* width: 30%; */
+  /* width: 35%; */
   display: block;
   margin: 0 auto;
  
@@ -74,12 +74,12 @@ body {
 } */
 
 .left-img {
-  position: absolute;
-  max-width: 34%;
-   /* width: 600px; */
-  bottom: 0;
-left: -5em;
-  z-index: 95;
+    position: absolute;
+    max-width: 42%;
+    /* width: 600px; */
+    bottom: 0;
+    left: -7em;
+    z-index: 95;
 }
 
 .social-icons {
@@ -94,7 +94,7 @@ left: -5em;
 
 .right-img {
    /* width: 690px; */
-   width: 40%;
+   width: 50%;
   position: absolute;
   right: -8em;
   bottom: 0;
@@ -405,10 +405,11 @@ h2 {
   /* padding: 20px; */
 }
 .chart{
-    width: 65%;
+    width: 45%;
     margin: 0 auto;
     height: 55vh;
     margin-bottom: 7em;
+    /* border-radius: 100rem; */
 }
 .chart h2{
     font-size:50px;
@@ -464,8 +465,8 @@ h2 {
     padding-bottom: 200px; */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
-  background-position: center;
+  width: 100%;
+  height: 550px;
   /* height: 100vh;
     position: relative;
     margin-bottom: 2rem; */
@@ -476,6 +477,9 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  background-color: #212128;
+  padding: 3.5rem 3rem;
+  border-radius: 1rem;
   /* margin-left: 5em; */
   
 }
@@ -486,10 +490,11 @@ h2 {
 }
   .buy_button {
     cursor: pointer;
-    color: #000;
-    background: #f8cf03;
+    color: #ffffff;
+    background: #36373e;
     padding: 10px 30px;
-    border: 3px solid #f8cf03;
+    border: 0;
+    /* border: 3px solid #36373e; */
     border-radius: 1.5rem;
     font-size: 15px;
     /* transition: var(--transition); */
@@ -499,7 +504,7 @@ h2 {
   }
 
   .buy_button:hover {
-  color: #fff;
+  background-color: #494b53;
   }
 
 
